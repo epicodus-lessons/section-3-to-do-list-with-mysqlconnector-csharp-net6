@@ -26,17 +26,6 @@ namespace ToDoList.Tests
       DBConfiguration.ConnectionString = Configuration["ConnectionStrings:TestConnection"];
     }
 
-    [TestMethod]
-    public void ReferenceTypes_ReturnsTrueIfDescriptionsAreTheSame_Item()
-    {
-      // Arrange, Act
-      int test1 = 1;
-      int test2 = 1;
-
-      // Assert
-      Assert.AreEqual(test1, test2);
-    }
-
     // [TestMethod]
     // public void ItemConstructor_CreatesInstanceOfItem_Item()
     // {
